@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Aneri Vyas – Resume</title>
+  <!-- Link to Google Fonts for professional typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with Navigation and Title -->
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <!-- Enlarged Profile image -->
+        <img src="aneri.jpeg" alt="Aneri Vyas" class="profile-pic">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Header Title -->
+    <div class="header-title">ANERI VYAS</div>
+  </header>
+  
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Profile Section (without the name, as it's now in the header) -->
+    <section id="profile" class="card">
+      <p class="subtitle">Business Management Student</p>
+      <p class="profile-text">
+        Finance and marketing student with a strong foundation in financial analysis, market research, and strategic planning.
+        Experienced in analyzing market trends, managing budgets, and identifying growth opportunities through academic projects and internships.
+      </p>
+    </section>
+    
+    <!-- Work Experience Section -->
+    <section id="experience" class="card">
+      <h2>Work Experience</h2>
+      <!-- Internship: Mann -->
+      <div class="experience-item">
+        <div class="logo-container">
+          <img src="mann.png" alt="Mann Logo" class="small-logo">
+        </div>
+        <div class="experience-details">
+          <h3>Social Media Strategist</h3>
+          <p><strong>Mann, 2024 - Present</strong></p>
+          <ul>
+            <li>Developed and executed social media strategies to enhance brand visibility and engagement.</li>
+            <li>Conducted in-depth market research to identify trends and optimize content performance.</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Internship: Winner CFO -->
+      <div class="experience-item">
+        <div class="logo-container">
+          <img src="Winnercfo.jpg" alt="Winner CFO Logo" class="small-logo">
+        </div>
+        <div class="experience-details">
+          <h3>Financial Planning &amp; Analysis Intern</h3>
+          <p><strong>Winner CFO Pvt Ltd, 2022 - 2023</strong></p>
+          <ul>
+            <li>Conducted financial analysis and forecasting to support client decision-making.</li>
+            <li>Assisted in budgeting, financial planning, and variance analysis to improve cost efficiency.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Education Section -->
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <div class="education-item">
+        <img src="iim.jpg" alt="IIM Bangalore Logo" class="edu-logo">
+        <div class="education-details">
+          <h3>Bachelor Of Business Administration</h3>
+          <p><strong>Indian Institute of Management Bangalore, 2024 - 2027</strong></p>
+        </div>
+      </div>
+      <div class="education-item">
+        <img src="nmims.png" alt="NMIMS Logo" class="edu-logo">
+        <div class="education-details">
+          <h3>Bachelor of Business Management</h3>
+          <p><strong>Anil Surendra Modi School Of Commerce | NMIMS Mumbai, 2024 - 2027</strong> (GPA: 9.0/10)</p>
+        </div>
+      </div>
+      <div class="education-item">
+        <img src="jmlschool.jpg" alt="Jasudben M.L. School Logo" class="edu-logo">
+        <div class="education-details">
+          <h3>Indian Certificate of Secondary Education</h3>
+          <p><strong>Jasudben M.L. School</strong> (Grade: 98.2%)</p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="card">
+      <h2>Technical &amp; Soft Skills</h2>
+      <div class="skills-container">
+        <div class="tech-skills">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>Excel</li>
+            <li>Power BI</li>
+            <li>SQL</li>
+            <li>Canva</li>
+            <li>Java</li>
+            <li>C++</li>
+          </ul>
+        </div>
+        <div class="soft-skills">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Project Management</li>
+            <li>Public Relations</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Leadership</li>
+            <li>Effective Communication</li>
+            <li>Critical Thinking</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section with details and a form -->
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <ul>
+        <li><strong>Phone:</strong> +91 9820282153</li>
+        <li><strong>Email:</strong> anerivyas166@gmail.com</li>
+        <li><strong>Location:</strong> Kaniya, Khar West, Mumbai</li>
+      </ul>
+      <div class="language-info">
+        <h3>Languages</h3>
+        <p>English (Fluent), Hindi (Fluent)</p>
+      </div>
+      
+      <!-- Contact Form -->
+      <!-- Contact Form -->
+<div class="contact-form-container">
+    <h3>Send a Message</h3>
+    <form action="thankyou.html" method="post" class="contact-form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  
+    
+    <!-- Download Button Container (right aligned) -->
+    <div class="download-container">
+      <a href="RESUME.pdf" class="download-btn" download>Click Here to Download Full Resume</a>
+    </div>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer id="footer">
+    <p>&copy; 2025 Aneri Vyas | Business Management Student</p>
+    <a href="https://www.linkedin.com/in/aneri-vyas-45416329a/" target="_blank" class="github-link">LinkedIn Profile</a>
+  </footer>
+</body>
+</html>

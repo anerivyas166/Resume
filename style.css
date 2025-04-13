@@ -1,0 +1,287 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;  /* Light grey backdrop */
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header and Navigation Bar */
+  #header {
+    background-color: #001f3f; /* Darker blue header */
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+    top: -10px;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .logo img.profile-pic {
+    width: 120px;  /* Enlarged profile image */
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .nav-links li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover,
+  .nav-links li a:focus {
+    color: #66b3ff;
+  }
+  
+  /* Header Title */
+  .header-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  
+  /* Main Content and Cards */
+  #main-content {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #ffffff;  /* White cards for clarity */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on cards */
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+  
+  /* Headings and Text */
+  h1, h2, h3 {
+    font-weight: 600;
+    color: #001f3f;  /* Dark blue for headings */
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .profile-text {
+    font-size: 1em;
+    line-height: 1.5;
+  }
+  
+  /* Experience Section */
+  .experience-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .logo-container {
+    margin-right: 15px;
+  }
+  
+  .small-logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  /* Education Section */
+  .education-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .edu-logo {
+    width: 50px;
+    height: auto;
+    margin-right: 15px;
+  }
+  
+  /* Skills Section */
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skills-container div {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .skills-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Contact Form Styling */
+  .contact-form-container {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .contact-form-container h3 {
+    margin-bottom: 15px;
+    color: #001f3f;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    border-color: #66b3ff;
+  }
+  
+  /* Button Styling for the Form */
+  button[type="submit"] {
+    background-color: #66b3ff;
+    border: 1px solid #66b3ff;
+    padding: 10px 15px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3399ff;
+  }
+  
+  /* Download Button Container (right aligned) */
+  .download-container {
+    text-align: right;
+    margin-top: 20px;
+  }
+  
+  .download-btn {
+    background-color: #66b3ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #3399ff;
+  }
+  
+  /* Footer Styling */
+  #footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #001f3f;
+    color: #ffffff;
+  }
+  
+  .github-link {
+    color: #66b3ff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+  }
+  
+  /* Responsive Design using Media Queries */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+  
+  /* Additional Selector Examples */
+  button,
+  input[type="text"]::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+  }
+  
+  button:hover {
+    background-color: #3399ff;
+  }
+  
+  /* Chained selector example */
+  .card p.standard-color {
+    color: #555;
+  }
+  
+  /* Descendant selector example */
+  #main-content .card ul li {
+    margin-bottom: 5px;
+  }
+  
